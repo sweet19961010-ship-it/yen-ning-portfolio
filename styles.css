@@ -5,7 +5,7 @@
       --line: #d9c7b3;
       --paper: #40362f;
       --muted: #75675c;
-      --signal: #967958;
+      --signal: #876D5A;
       --signal-soft: #f0dcc3;
       --warm: #80684e;
       --cream: #fffaf4;
@@ -93,7 +93,7 @@
       width: 10px;
       height: 10px;
       background: var(--signal);
-      box-shadow: 0 0 0 5px rgba(150, 121, 88, .12);
+      box-shadow: 0 0 0 5px rgba(135, 109, 90, .12);
       transform: rotate(45deg);
     }
 
@@ -245,7 +245,7 @@
       position: absolute;
       inset: 8%;
       z-index: -2;
-      background: radial-gradient(circle, rgba(150, 121, 88, .13), transparent 67%);
+      background: radial-gradient(circle, rgba(135, 109, 90, .13), transparent 67%);
       filter: blur(10px);
     }
 
@@ -253,7 +253,7 @@
       position: absolute;
       inset: 12%;
       z-index: -1;
-      border: 1px solid rgba(150, 121, 88, .24);
+      border: 1px solid rgba(135, 109, 90, .24);
       border-radius: 50%;
       animation: breathe 5s ease-in-out infinite;
     }
