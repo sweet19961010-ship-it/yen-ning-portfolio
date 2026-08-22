@@ -81,7 +81,7 @@
     .brand {
       display: inline-flex;
       align-items: center;
-      gap: 25px;
+      gap: 20px;
       text-decoration: none;
       font-family: "Times New Roman", Times, serif;
       font-weight: 700;
@@ -698,7 +698,6 @@
     @media (max-width: 680px) {
       .wrap { width: min(calc(100% - 30px), var(--max)); }
       .site-header { backdrop-filter: none; }
-      .brand { gap: 20px; }
       .menu-toggle { display: inline-grid; place-items: center; }
       .nav-links {
         position: absolute;
